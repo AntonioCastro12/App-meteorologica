@@ -18,7 +18,7 @@ function App() {
     //cambiar la imagen de la pestaña
     const favicon = document.querySelector('link[rel="icon"]')
     if(favicon){
-      favicon.href = "../public/weather-forecast.png"
+      favicon.href = "./src/components/sol.png"
     }
     
     setTimeout(() => {
