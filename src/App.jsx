@@ -18,7 +18,7 @@ function App() {
     //cambiar la imagen de la pestaña
     const favicon = document.querySelector('link[rel="icon"]')
     if(favicon){
-      favicon.href = "./public/sol.png"
+      favicon.href =( '"<a href=https://www.flaticon.es/iconos-gratis/nube" title="nube iconos">Nube iconos creados por Freepik - Flaticon</a>')
     }
     
     setTimeout(() => {
