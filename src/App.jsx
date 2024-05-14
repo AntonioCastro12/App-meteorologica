@@ -18,7 +18,7 @@ function App() {
     //cambiar la imagen de la pestaña
     const favicon = document.querySelector('link[rel="icon"]')
     if(favicon){
-      favicon.href = "./components/img/sol.png"
+      favicon.href = "./public/sol.png"
     }
     
     setTimeout(() => {
