@@ -76,7 +76,7 @@ function App() {
         ) 
         :(
           hasError
-          ? <h1 className='img__error'>Para obtener el clima de tu ciudad, por favor no bloquies la ubicación</h1>
+          ? <h1 className='img__error'>Para obtener el clima de tu ciudad, por favor no bloquees la ubicación</h1>
           :(
           <WeatherCard
       weather={weather}
