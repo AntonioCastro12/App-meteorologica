@@ -18,7 +18,7 @@ function App() {
     //cambiar la imagen de la pestaña
     const favicon = document.querySelector('link[rel="icon"]')
     if(favicon){
-      favicon.href = "./components/error.png"
+      favicon.href = "./public/sol.png"
     }
     
     setTimeout(() => {
@@ -40,9 +40,6 @@ function App() {
     navigator.geolocation.getCurrentPosition(success, error)
   }, []) 
 
-
-
-
   useEffect(() => { // Este useEffect se ejecute en el primer renderizado y ademas cada que coords cabmbie.
     
     if(coords){
@@ -62,7 +59,7 @@ function App() {
   }
   }, [coords]) // se ejecuta cuando cambia el estado de coords y en el primer renderizado
 
-  console.log(weather)
+  
 
   return (
     <div className='app'>
