@@ -13,7 +13,14 @@ function App() {
   const [showMessage, setMessage] = useState(false)
   useEffect(() => {
 
+    document.title = "Weather" // <Esta function se utiliza para cambiar el titul de la pestaña
 
+    //cambiar la imagen de la pestaña
+    const favicon = document.querySelector('link[rel="icon"]')
+    if(favicon){
+      favicon.href = "../public/weather-forecast.png"
+    }
+    
     setTimeout(() => {
       setMessage(true)
     }, 3000)
