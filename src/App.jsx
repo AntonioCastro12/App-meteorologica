@@ -13,13 +13,13 @@ function App() {
   const [showMessage, setMessage] = useState(false)
   useEffect(() => {
 
-    document.title = "Weather" // <Esta function se utiliza para cambiar el titul de la pestaña
+  //  ` document.title = "Weather"` // <Esta function se utiliza para cambiar el titul de la pestaña
 
     //cambiar la imagen de la pestaña
-    const favicon = document.querySelector('link[rel="icon"]')
-    if(favicon){
-      favicon.href =( '"<a href=https://www.flaticon.es/iconos-gratis/nube" title="nube iconos">Nube iconos creados por Freepik - Flaticon</a>')
-    }
+    // const favicon = document.querySelector('link[rel="icon"]')
+    // if(favicon){
+    //   favicon.href =( '')
+    // }
     
     setTimeout(() => {
       setMessage(true)
