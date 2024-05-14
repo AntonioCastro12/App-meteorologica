@@ -28,3 +28,20 @@ button {
     border: none;
     cursor: pointer;
 } 
+
+.img__error{
+    width: 100%;
+    height: 24em;
+    background-image: url(./components/img/error.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: azure;
+}
+
+.img_loading{
+    width: 100%;
+    height: 24em;
+    background-image: url(./components/img/barra-de-carga.png);
+   
+}

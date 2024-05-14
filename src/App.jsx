@@ -63,7 +63,7 @@ function App() {
         isLoading
         ?(
           <div>
-            <h1><img src="../public/barra-de-carga.png" alt="" width="100px"   /></h1>
+            <h1 className='img_loading'></h1>
 
             {
               showMessage && <p>Por favor, activa la ubicación.</p>
@@ -72,7 +72,7 @@ function App() {
         ) 
         :(
           hasError
-          ? <h1>Para obtener el clima de tu ciudad, por favor no bloquies la ubicación<img src="../public/error.png" alt="" width="400px" /></h1>
+          ? <h1 className='img__error'>Para obtener el clima de tu ciudad, por favor no bloquies la ubicación</h1>
           :(
           <WeatherCard
       weather={weather}
