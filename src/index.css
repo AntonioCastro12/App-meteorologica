@@ -41,7 +41,7 @@ button {
 
 .img_loading{
     width: 100%;
-    height: 24em;
+    height: 18em;
     background-image: url(./components/img/barra-de-carga.png);
    
 }
