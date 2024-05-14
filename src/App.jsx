@@ -70,7 +70,7 @@ function App() {
             <h1 className='img_loading'></h1>
 
             {
-              showMessage && <p>Por favor, activa la ubicación.</p>
+              showMessage && <p style={white}>Por favor, activa la ubicación.</p>
             }
           </div>
         ) 
